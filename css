@@ -1,0 +1,4 @@
+soup = BeautifulSoup(html, 'lxml')
+print(soup.select('.xxx .xxxx') #选择类,前面加点 用空格分开
+print(soup.select('ul li') #按标签选择
+print(soup.select('#yyyyy .xxxx') id前面加#
